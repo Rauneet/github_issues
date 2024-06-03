@@ -1,0 +1,19 @@
+{                                                            
+    "_comment6": "Your request type custom field id",
+    "_comment7": "Your request type dropdown id",
+    "_comment8": "Label to request type id if the label in issue is bug then request type is set to bug in clickup",
+    "label_to_request_type_id": {
+        "bug": "bb6de1dc-da65-4a85-9d0e-5065919fede5",
+        "enhancement": "15c61688-3ad5-4dc5-bb7f-17b6c6ff30d9",
+        "question": "3328c6c2-06f8-41e4-a76c-4fb435df2bb2",
+        "task": "7abfef5b-9190-4726-8ed5-d5e317eb9c93"
+    },
+    "_comment9": "if the label in the issue is p0,p1,or request type is set to bug then priority is set based on the label on the issue",
+    "label_to_priority": {
+        "p0": 1,
+        "p1": 2,
+        "bug": 2,
+        "enhancement": 3
+    }
+
+}
